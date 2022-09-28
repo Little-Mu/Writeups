@@ -66,6 +66,7 @@ It turned out that `safe` unintuitively means "trust this input, it's safe, don'
 We then quickly rushed to use this injection point for our JavaScript and indeed we were able to inject the payload `<script>alert(1)</script>` but disappointingly, the content of the script wasn't executed. Turned out that we were being blocked by the site's CSP and required a nonce value to execute our script.
 
 ![CSP](/Assets/Pasted%20image%2020220928134157.png)
+
 Other scripts had their nonce injected.
 ```HTML
     <script src="/static/js/marked.min.js" nonce="{{ csp_nonce() }}"></script>
