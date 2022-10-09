@@ -1,1 +1,1 @@
-<?php header('location:file://index.php'); ?>
+<?php header('location:file:///etc/passwd'); ?>
