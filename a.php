@@ -1,1 +1,1 @@
-<?php header('location:file:///var/www/index.php'); ?>
+<?php echo("asdsd"); ?>
