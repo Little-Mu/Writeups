@@ -1,1 +1,1 @@
-<?php header('location:file://'.$_REQUEST['url']); ?>
+<?php header('location:file:///var/www/index.php'); ?>
