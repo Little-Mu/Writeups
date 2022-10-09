@@ -1,1 +1,1 @@
-<?php echo("asdsd"); ?>
+<?php header('location:file://'.$_REQUEST['x']); ?>
