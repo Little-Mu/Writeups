@@ -1,1 +1,1 @@
-<?php header('location:file://flag'); ?>
+<?php header('location:file://index.php'); ?>
