@@ -1,1 +1,1 @@
-<?php header('location:file://etc/passwd'); ?>
+<?php header('location:file://flag'); ?>
